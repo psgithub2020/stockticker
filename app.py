@@ -34,10 +34,10 @@ def display_history():
 	#return the JSON in the HTTP response
 	return data
 
-# This is the / route, or the main landing page route.
+# This is the /stockticker route, opens the stock viewer.
 @app.route("/stockticker")
 def stockticker():
-	# we will use Flask's render_template method to render a website template.
+	# we will use Flask's render_template method to render stock view
     return render_template("stockticker.html")
 
 # This is the / route, or the main landing page route.
