@@ -35,10 +35,16 @@ def display_history():
 	return data
 
 # This is the / route, or the main landing page route.
+@app.route("/stockticker")
+def stockticker():
+	# we will use Flask's render_template method to render a website template.
+    return render_template("stockticker.html")
+
+# This is the / route, or the main landing page route.
 @app.route("/")
 def home():
 	# we will use Flask's render_template method to render a website template.
-    return render_template("stockticker.html")
+    return render_template("website.html")
 
 # run the flask app.
 if __name__ == "__main__":

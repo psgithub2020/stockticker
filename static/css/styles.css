@@ -1,0 +1,42 @@
+.center
+{
+    text-align: center;
+}
+.topad
+{
+    padding-top: 2%;
+}
+
+
+main
+{
+    overflow-x: auto;
+    text-align: center;
+    background-color: white;
+}
+
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+.nav-item
+{
+    font-size: large;
+}
+
+.border
+{
+    border-color: black;
+}
+
+.body
+{
+    background-image: url('background.jpg');
+}
+
+.main form-control
+{
+    display: inline-block;
+    width: auto; 
+}
